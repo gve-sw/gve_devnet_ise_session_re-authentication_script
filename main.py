@@ -33,7 +33,7 @@ from netmiko import ConnectHandler
 # load environment variables
 load_dotenv()
 
-# global variables
+# global variables (set from environment variables)
 SWITCH_USERNAME = os.getenv("SWITCH_USERNAME")
 SWITCH_PASSWORD = os.getenv("SWITCH_PASSWORD")
 MAX_THREADS = int(os.getenv("MAX_THREADS")) 

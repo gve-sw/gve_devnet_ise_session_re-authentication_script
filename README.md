@@ -56,6 +56,14 @@ This prototype python script reads in endpoint devices from ISE and triggers a s
     python3 main.py sample.csv
     ```
 
+# Additional Resources
+
+* Netmiko
+  * Overview: https://pynet.twb-tech.com/blog/netmiko-python-library.html
+  * Project Github Page: https://github.com/ktbyers/netmiko
+* Python: 
+  * Main Tutorial: https://www.w3schools.com/python/
+  * Python Concurrency (Futures): https://rednafi.github.io/digressions/python/2020/04/21/python-concurrent-futures.html
 
 # Screenshots
 
@@ -69,6 +77,7 @@ Select Grouping Method
 
 Export CSV
 ![/IMAGES/ExportTab.png](/IMAGES/ExportTab.png)
+
 
 ### LICENSE
 
